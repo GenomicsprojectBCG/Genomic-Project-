@@ -36,9 +36,9 @@ The pipeline consists of the following steps:
 
 ### Required Reference Files
 
--   `chr20*` (Bowtie2 index)\
--   `chr20.fa` (reference genome)\
--   `chr20_bed` (target regions)\
+-   `chr20*` (Bowtie2 index)
+-   `chr20.fa` (reference genome)
+-   `chr20_bed` (target regions)
 -   `samples.txt` (sample list): file containing the sequence of samples in each trio (child, father, mother)
 
 ### Raw Sequencing Data
@@ -51,26 +51,27 @@ Before running the pipeline, you must update file paths to match your system. Th
 
 ## Required modifications
 
-1.  Download chromosome 20 reference\
+1.  Download chromosome 20 reference
     You must explicitly download the reference genome (chr20) before building the index.
 
-2.  Build Bowtie2 index for chr20\
+2.  Build Bowtie2 index for chr20
     The index must be created locally after downloading the reference genome.
 
-3.  Adapt BED file\
+3.  Adapt BED file
     The BED file containing target regions for exome sequencing must be adapted according to your experimental design and sequencing targets.
 
-4.  Update sample paths\
+4.  Update sample paths
     Replace the original sample directory with the correct path where your FASTQ files are stored.
 
 ## Execution
 
 In order to un the pipeline:\
-change the mode of the pipeline after uploaded the script: `chmod +x nameofthepipeline.sh`\
-run the pipeline from your terminal `./nameofthepipeline.sh`
+change the mode of the pipeline after uploaded the script: `chmod +x nameofthepipeline.sh` \
+run the pipeline from your terminal `./nameofthepipeline.sh` 
 
-The pipeline will prompt for: - Case names (multiple trios separated by spaces)\
-- Sample IDs (corresponding to child, father, mother)\
+The pipeline will prompt for: 
+- Case names (multiple trios separated by spaces)
+- Sample IDs (corresponding to child, father, mother)
 - Username (used to locate input data)
 
 ## Output Files
