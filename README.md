@@ -39,9 +39,9 @@ The pipeline consists of the following steps:
 
 ### Required Reference Files
 
--   `chr20*` (Bowtie2 index)\
--   `chr20.fa` (reference genome)\
--   `chr20_bed` (target regions)\
+-   `chr20*` (Bowtie2 index)
+-   `chr20.fa` (reference genome)
+-   `chr20_bed` (target regions)
 -   `samples.txt` (sample list): file containing the sequence of samples
     in each trio (child, father, mother)
 
@@ -50,7 +50,7 @@ The pipeline consists of the following steps:
 
 Paired-end FASTQ files: \*\_R1.fq.gz \*\_R2.fq.gz
 
-## Configuration before running the pipeline \|
+## Configuration before running the pipeline 
 
 Before running the pipeline, you must update file paths to match your
 system. This workflow uses absolute paths (e.g.
