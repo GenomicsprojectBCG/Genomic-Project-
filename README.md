@@ -51,16 +51,16 @@ Before running the pipeline, you must update file paths to match your system. Th
 
 ## Required modifications
 
-1.  **Download chromosome 20 reference\
-    **You must explicitly download the reference genome (chr20) before building the index.
+1.  Download chromosome 20 reference\
+    You must explicitly download the reference genome (chr20) before building the index.
 
-2.  **Build Bowtie2 index for chr20**\
+2.  Build Bowtie2 index for chr20\
     The index must be created locally after downloading the reference genome.
 
-3.  **Adapt BED file**\
+3.  Adapt BED file\
     The BED file containing target regions for exome sequencing must be adapted according to your experimental design and sequencing targets.
 
-4.  **Update sample paths**\
+4.  Update sample paths\
     Replace the original sample directory with the correct path where your FASTQ files are stored.
 
 ## Execution
