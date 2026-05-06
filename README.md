@@ -31,7 +31,7 @@ The pipeline consists of the following steps:
 -   FreeBayes  version 1.3.6
 -   BCFtools version 1.13
 -   Bedtools version 2.30.0
--   bgzip (htslib) 1.13+ds
+-   bgzip (htslib) version 1.13+ds
 
 ## Input Data
 
