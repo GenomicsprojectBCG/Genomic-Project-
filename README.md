@@ -23,14 +23,15 @@ The pipeline consists of the following steps:
 
 ## Requirements
 
--   Bowtie2
--   Samtools
--   Qualimap
--   FastQC
--   MultiQC
--   FreeBayes
--   BCFtools
--   Bedtools
+-   Bowtie2 version 2.4.4
+-   samtools version 1.13
+-   Qualimap version 2.3
+-   FastQC version 0.11.9
+-   MultiQC version 1.34
+-   FreeBayes  version 1.3.6
+-   BCFtools version 1.13
+-   Bedtools version 2.30.0
+-   bgzip (htslib) 1.13+ds
 
 ## Input Data
 
